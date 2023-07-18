@@ -1,0 +1,12 @@
+import tkinter as tk
+from tkinter import ttk
+
+# Create an instance with 'init'
+class PizzaPlanet:
+  def __init__(self, root)
+    self.root = root
+    selft.rrot.title("Pizza Planet online ordering")
+
+    # Welcome message in the GUI window 
+    self.label_welcome = ttk.Label(root, text="Welcome to Pizza Planet", font=("Helvetica", 20))
+    self.label_welcome.pack(pady=20)
